@@ -12,7 +12,11 @@ state = {
 }; 
 
 removeTour = id  => {
-	console.log(id); 
+	const {tours} = this.state;
+	const sortedTours = tours.filter(tour => tour.id !== id);
+	this.setState({
+		tours: sortedTours
+	}); 
 };
 
 
@@ -20,7 +24,7 @@ removeTour = id  => {
   	const {tours} = this.state; 
   	//console.log(this.state.tours); 
     return (
-    	
+
       <section className="tourlist">
       	{
       		tours.map(tour => (
