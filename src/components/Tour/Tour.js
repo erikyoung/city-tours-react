@@ -24,7 +24,7 @@ handleInfo = () => {
     return (
     		<article className="tour">
     			<div className="img-container">
-    				<img src={img} alt="tour of the city" />	
+    				<img src={img} alt="tour of the day" />	
     				<span className="close-btn" onClick={() => removeTour(id)}> 
     					<i className="fas fa-window-close" />
     				</span> 
@@ -33,7 +33,7 @@ handleInfo = () => {
     				<h3>{city}</h3>
     				<h4>{name}</h4>
     			<h5>
-    				<span className="info-tab">Get More Info</span>{" "}
+    				info{" "}
 
 	    			<span onClick={this.handleInfo}>
 	    				<i className="fas fa-caret-square-down" />	

@@ -1,7 +1,13 @@
 @import '../../index.scss'; 
 
+.info-tab {
+	font-size: 0.75rem;
+}
+
+
+
 .tour {
-	background: $mainGrey; 
+	background: $mainBlack; 
 	margin: 2rem 0; 
 
 	img {
@@ -23,8 +29,9 @@
 .img-container {
 	position: relative; 
 
-
 }
+
+
 
 .close-btn {
 	position: absolute; 
@@ -44,25 +51,29 @@
 
 .tour-info {
 	padding: 1rem 0.5rem; 
+
 		h3 {
 			text-transform: uppercase;
 			color: $mainGreen; 
-			font-size: 1.5rem;
+			font-size: 3rem;
 
 
 		}
 		h4 {
 			text-transform: capitalize; 
-			margin: 0.2rem 0 0.6rem 0; 
+			font-family: 'Libre Baskerville', serif;
+			
 			font-weight:light;
+			color: $mainWhite; 
 		}
 		h5 {
 			text-transform: capitalize; 
 				span {
 					color: $mainGreen; 
-					
+					font-family: 'Libre Baskerville', serif;
 					font-weight:bold;
 					cursor: pointer; 
+
 				}
 
 		}
