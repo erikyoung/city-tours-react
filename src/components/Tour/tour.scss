@@ -47,19 +47,21 @@
 		h3 {
 			text-transform: uppercase;
 			color: $mainGreen; 
+			font-size: 1.5rem;
 
 
 		}
 		h4 {
-			textt-transform: capitalize; 
+			text-transform: capitalize; 
 			margin: 0.2rem 0 0.6rem 0; 
+			font-weight:light;
 		}
 		h5 {
 			text-transform: capitalize; 
 				span {
 					color: $mainGreen; 
-					margin: 0.5rem; 
-					font-size: 1.2rem; 
+					
+					font-weight:bold;
 					cursor: pointer; 
 				}
 

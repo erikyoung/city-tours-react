@@ -33,7 +33,7 @@ handleInfo = () => {
     				<h3>{city}</h3>
     				<h4>{name}</h4>
     			<h5>
-    				info{" "}
+    				<span className="info-tab">Get More Info</span>{" "}
 
 	    			<span onClick={this.handleInfo}>
 	    				<i className="fas fa-caret-square-down" />	

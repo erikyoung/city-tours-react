@@ -1,33 +1,33 @@
 export const tourData = [
   {
     id: 1,
-    city: "new york",
+    city: "New York",
     img: "./img/newyork.jpeg",
-    name: "new york bridge tour",
+    name: "New York Bridge Tour",
     info:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, nam omnis error corrupti eum assumenda enim odit architecto corporis. Sequi"
   },
   {
     id: 2,
-    city: "paris",
+    city: "Paris",
     img: "./img/paris.jpeg",
-    name: "paris lights tour",
+    name: "Lights Tour",
     info:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, nam omnis error corrupti eum assumenda enim odit architecto corporis. Sequi"
   },
   {
     id: 3,
-    city: "london",
+    city: "London",
     img: "./img/london.jpeg",
-    name: "london royal palace tour",
+    name: "Royal palace tour",
     info:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, nam omnis error corrupti eum assumenda enim odit architecto corporis. Sequi"
   },
   {
     id: 4,
-    city: "tokyo",
+    city: "Tokyo",
     img: "./img/tokyo.jpeg",
-    name: "tokyo sushi tour",
+    name: "Sushi tour",
     info:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, nam omnis error corrupti eum assumenda enim odit architecto corporis. Sequi"
   }
